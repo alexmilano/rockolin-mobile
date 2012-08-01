@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="hello">Hello World, RockolinActivity!</string>
-    <string name="app_name">Rockolin</string>
-
+	<string name="app_name">Rockolin</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="button_send">Send</string>
+    <string name="button_register">Signup</string>
+    <string name="welcome">Welcome to Rockolin!</string>
+    <string name="email_hint">email</string>
+    <string name="join_party">Join a party!</string>
+    <string name="create_party">Create a party!</string>
+    <string name="party_name">Party name:</string>
+    <string name="party_address">Where is it?:</string>
+    <string name="scan_button">Scan party!</string>
+    <string name="party_create">Make your party!</string>
+    <string name="create_party_button">Create!</string>
 </resources>

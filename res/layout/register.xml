@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" android:paddingTop="70dp" android:background="@drawable/splash">
+
+    <TextView
+        android:id="@+id/title_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_register"
+        android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="40dp"/>
+
+    <EditText
+        android:id="@+id/username_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="none|text" android:focusableInTouchMode="false">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/password_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" 
+        android:focusable="false" android:focusableInTouchMode="false" android:clickable="false"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" android:hint="@string/email_hint">
+
+        <requestFocus />
+
+    </EditText>
+
+    <Button
+        android:id="@+id/button_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send" 
+        android:onClick="register"/>
+
+</LinearLayout>
