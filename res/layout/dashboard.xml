@@ -29,5 +29,12 @@
         android:layout_marginTop="100dp"
         android:text="@string/create_party" 
         android:onClick="createParty"/>
+
+    <Button
+        android:id="@+id/my_parties_button"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="@string/my_parties" 
+        android:onClick="myParties"/>
 
 </LinearLayout>

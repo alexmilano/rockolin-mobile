@@ -14,4 +14,5 @@
     <string name="scan_button">Scan party!</string>
     <string name="party_create">Make your party!</string>
     <string name="create_party_button">Create!</string>
+    <string name="my_parties">My parties</string>
 </resources>

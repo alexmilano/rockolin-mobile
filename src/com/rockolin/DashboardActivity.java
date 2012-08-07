@@ -49,4 +49,8 @@ public class DashboardActivity extends Activity {
 	public void joinParty(View view){
 		startActivity(new Intent(this, JoinActivity.class));
 	}
+	
+	public void myParties(View view){
+		startActivity(new Intent(this, MyParties.class));
+	}
 }
